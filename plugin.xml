@@ -33,7 +33,7 @@ version="0.1.2">
     </config-file>
 
     <config-file target="AndroidManifest.xml" parent="/manifest">
-        <uses-permission android:name="android.permission.RECEIVE_SMS" />
+        <uses-feature android:name="android.permission.RECEIVE_SMS" android:required="false" />
     </config-file>
 
 <source-file src="src/org/apache/cordova/plugin/SmsReceiver.java" target-dir="src/org/apache/cordova/plugins" />
